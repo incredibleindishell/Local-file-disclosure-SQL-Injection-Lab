@@ -70,7 +70,7 @@ include('head.php');
 if(isset($_POST['home']))
 {
 	
-	echo 'Home page';
+	echo '<br><br><font size=5>This Lab is just to demonstrate how SQL Injection can be exploited to perform local file disclosure <br>if application if allowing user to download files on the basis of vulnerable SQL query';
 	
 }
 
