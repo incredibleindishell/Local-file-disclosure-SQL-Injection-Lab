@@ -11,12 +11,19 @@ username = dsqli
 and 
 password = icadsqli
 
-To create database and user which will be having read permission on the 
-database, just follow given below process: --> Login to MySQL console with root account 
+To create database and user which will be having read permission on the database, just follow given below process: 
+
+--> Login to MySQL console with root account 
+
 Command to create new database: -Create database dsqli;
+
 Command to create user dsqli with password icadsqli which will be 
-having read/write permission on database dsqli: -grant all on dsqli.* to dsqli@localhost IDENTIFIED BY 'icadsqli';
+having read/write permission on database dsqli: -
+
+grant all on dsqli.* to dsqli@localhost IDENTIFIED BY 'icadsqli';
+
 Once you have setup database and user account, just import the database 
+
 dump file (dsqli.sql which is available with the sample code) to database dsqli.
 
 Introdunction page
