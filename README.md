@@ -5,6 +5,9 @@ exploit SQL Injection vulnerability in file download function which download fil
 returned by vulnerable SQL query. 
 Let’s consider scenario in which, there is one user supplied parameter which is getting process in SQL query and after processing, SQL query is returning location of the file. Now, let’s suppose that value returned by SQL query is getting pass to a function which download local file from server. In this case if user input is not getting check by web application, in that case attacker can easily manipulate SQL query to download any file from server with known location (file must have read permission on it).
 
+You can download detailed Paper from here 
+<a href="https://github.com/incredibleindishell/Local-file-disclosure-SQL-Injection-Lab/raw/master/local%20file%20disclosure%20using%20SQL%20Injection.pdf">Local file disclosure using SQL Injection</a>
+
 To setup this lab on your machine, create database with name dsqli
 grant all privileges on that database for user with 
 username = dsqli
